@@ -1,4 +1,6 @@
 /* this is the css file for index.html */
 p{
     color:grey;
+    font-family:sans-serif;
+    font-size:14pt;
 }
