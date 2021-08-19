@@ -1,5 +1,5 @@
 /* this is the css file for index.html */
-header div a{
+.topnav a{
     float: right;
 }
 
