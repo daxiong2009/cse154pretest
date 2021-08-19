@@ -1,8 +1,11 @@
 /* this is the css file for index.html */
 .topnav a{
-    float: right;
+    float: left;
+    color:whitesmoke;
+    padding-left: 50px;
 }
 
+.topnav a:hover {color:#b37a7f;}
 
 
 p{
