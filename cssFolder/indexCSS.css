@@ -3,4 +3,6 @@ p{
     color:grey;
     font-family:sans-serif;
     font-size:14pt;
+    text-align: justify;
+    text-justify: inter-word;
 }
