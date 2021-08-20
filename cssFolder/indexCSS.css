@@ -1,6 +1,8 @@
 /* this is the css file for index.html */
-body{
+html, body{
     background-color:whitesmoke;
+    width:100%;
+    min-height:100vh;
 }
 header{
     background-color:rgb(153, 9, 38);
@@ -17,26 +19,60 @@ header a{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-header a:hover {
-    color:whitesmoke
+header, a:hover {
+    color:whitesmoke;
 }
 
 main{
+    display:block;
     margin-top:5%;
-    width:85%;
+    width:75%;
     margin-bottom:5%;
     padding:2% 2% 2% 2%;
     border-top:black 1px dashed;
     border-bottom:black 1px dashed;
     border-right:black 1px dashed;
     border-radius: 2%;
+    height:300px;
 }
 #headshot{
     float:left;
     margin-right:4%;
 }
 
-main p{
+section{
+    background-color: brown;
+    margin-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+section a{
+    color:whitesmoke;
+    text-decoration: none;
+    border-right:2px solid whitesmoke;
+}
+
+section a:hover{
+    font-weight: bold;
+}
+
+#button1{
+    border-left:2px solid whitesmoke;
+    padding-left:1%;
+    padding-right:1%}
+#button2{
+    padding-right:1%;
+    padding-left:1%;
+}
+#button3{
+    padding-right:1%;
+    padding-left:1%;
+}
+
+
+
+#buttonClick{
     line-height: 145%;
     font-size:110%;
     text-align: justify;
@@ -46,14 +82,8 @@ main p{
 #weibo{
     margin-left:2%;
 }
-
-
-footer{
-    padding-top:0.5%;
-    padding-bottom:0.5%;
-    background-color: rgb(153, 9, 38);
-}
-
+footer{margin-top:20%}
 footer p{
-    color:whitesmoke
+    color:black;
+    text-align:center;
 }
